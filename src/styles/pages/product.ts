@@ -1,4 +1,4 @@
-import { styled } from "..";
+import { styled } from '..'
 
 export const ProductContainer = styled('main', {
   display: 'grid',
@@ -69,5 +69,5 @@ export const ProductDetails = styled('div', {
     '&:not(:disabled):hover': {
       backgroundColor: '$green300',
     },
-  }
+  },
 })
